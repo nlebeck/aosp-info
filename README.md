@@ -4,6 +4,7 @@
 
  - [Compiling and Deploying AOSP](android_compiling_aosp.md)
  - [A Whirlwind Tour of ART](android_art_tour.md)  (work-in-progress)
+ - [Miscellaneous Lore](android_miscellaneous_lore.md)
 
 ## About This Repo
 
