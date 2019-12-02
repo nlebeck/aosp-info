@@ -1,6 +1,6 @@
 ﻿# A Whirlwind Tour of ART
 
-If you're reading this page, you probably have some high-level knowledge about Java and Android. You might know that Android apps consist of Java code compiled down to DEX bytecode, and that something called the Android Runtime (ART) is responsible for executing that bytecode (or compiling it down further into native code). But how does ART actually work? This page aims to show you which specific files and lines of code in the ART codebase implement the high-level functionality that you expect.
+If you're reading this page, you probably have some high-level knowledge about Java and Android. You might know that Android apps consist of Java code compiled down to DEX bytecode, and that the Android Runtime (ART) is responsible for executing that bytecode (or compiling it down further into native code). But how does ART's high-level functionality correspond to specific lines of code in its massive codebase? This page aims to answer that question, by discussing different high-level features and walking through the source files and methods that implement them.
 
 The notes are for the version of ART in Android 7.1. I'm not sure how much ART has changed since then. It seemed like in Android 8, ART got new features but kept most of the same code, so hopefully that trend has continued, and this information is still relevant for even newer versions.
 
