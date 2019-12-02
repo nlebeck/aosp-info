@@ -4,7 +4,7 @@ If you're reading this page, you probably have some high-level knowledge about J
 
 The notes are for the version of ART in Android 7.1. I'm not sure how much ART has changed since then. It seemed like in Android 8, ART got new features but kept most of the same code, so hopefully that trend has continued, and this information is still relevant for even newer versions.
 
-Here are links to the relevant AOSP repos at tag `android-7.1.1_r7`:
+Here are links to the relevant AOSP repos at tag `android-7.1.1_r57`:
 
 - [art repo](https://android.googlesource.com/platform/art/+/refs/tags/android-7.1.1_r57)
 - [libcore repo](https://android.googlesource.com/platform/libcore/+/refs/tags/android-7.1.1_r57/)
